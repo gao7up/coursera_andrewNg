@@ -1,11 +1,9 @@
 week 4
 giulBSuYVKKHNRjv
 
-ex4
 week 5
-5altcRlUlqV3NbFX
+DoK9L3z5wwnHjEOw
 
-ex5
 week 6 regularized linear regression and bias/variance
 i5yYabs7rPN1P4bo
 
@@ -17,11 +15,3 @@ week 8
 
 week 9
 e8eJhBYuDqiSF9ex
-
-octave错误
-修改lib/submitWithConfiguration里面
-
-%responseBody = urlread(submissionUrl, 'post', params);
-替换为
-  [code, responseBody] = system( ...
-    sprintf('echo jsonBody=%s | curl -k -X POST -d @- %s', body, submissionUrl));
